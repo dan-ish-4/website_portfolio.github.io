@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    background-color:white ;
+    height: 100vh
+}
+.sidebar{
+    background-color: rgba(98, 147, 155, 0.608);
+    /* height: 100vh;
+    width: 200px; */
+    height: 100vh;
+    width: 181px;
+    font-family:'Ubuntu', sans-serif;
+    transition: 0.4s ease-in;   
+}
+.sidebargo{
+    
+    transform: translate(-309px, 0px);
+    position: absolute; 
+}
+.sidebar ul{
+    list-style-type:none;
+    font-size: 30px;
+    
+}
+.sidebar ul li{
+    margin: 2px;
+    padding: 57px 0;
+    
+
+}
+
+.sidebar nav{
+    padding: 14px;
+
+}
+.main{
+   
+    background-color: white;
+    /* height: 100vh;
+    width: 1352px; */
+    height: 100vh;
+    width:1338px;
+}
+    
+.content{
+    background-color: white;
+    height: 43vh;
+    width: 78vw;
+    margin: 82px 90px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.content img{
+    width: 20vw;
+}
+.devinfo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.btn button{
+    cursor:pointer;
+    border-radius: 3px;
+    border-radius: 32px;
+    margin: 11px 2px;
+    padding: 9px;
+    color: white;
+    background-color: rgba(98, 147, 155, 0.608);
+}
+.btn button:hover{
+    color:rgba(98, 147, 155, 0.608);
+    background-color: white;
+}
+
+.intro{
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+}
+.name{
+    font-family: 'Grape Nuts', cursive;
+    font-weight: 900;
+}
+.about{
+    font-family: 'Grape Nuts', cursive;
+    font-weight: 900;
+}
+
+.sidebar a{
+    text-decoration: none;
+}
+/*................ contact page .................................*/
+.forms{
+    width: 642vw;
+}
+
+.forms h1{
+    
+    font-family:'Ubuntu', sans-serif;
+    margin: 24px 37px;
+}
+.forms form{
+    display: flex;
+    flex-direction: column;
+    margin: 26px;
+    font-family: 'Grape Nuts', cursive;
+    font-weight: 800;
+}
+.row{
+    margin: 13px;
+}
+.condition{
+    font-weight: 100;
+    font-size: 10px;
+}
+.btn-sm{
+    margin: 2px 13px;
+    width: 72px;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(98, 147, 155, 0.608);
+}
+.btn-sm:hover{
+    color:rgba(98, 147, 155, 0.608) ;
+    background-color:white ;
+}
+.form-control{
+    width: 344px;
+    border-radius: 6px;
+}
+
+/*..........blog...............*/
+
+.blogcontainer{
+    width: 1231px;
+    margin-left: 60px;
+    overflow: scroll;
+    height: 100vh;
+}
+
+h1{
+    font-family:'Ubuntu', sans-serif;
+    margin: 15px;
+    padding: 6px;
+}
+.bh1{
+    margin-left:14px;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 8px 13px
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 14px;
+}
+
+/*.........about...............*/
+
+
+.skillitem{
+    padding: 0px 14px;
+    margin: 13px 0px;
+}
+.progress{
+    background-color:lightgray;
+    width: 20vw;
+    border-radius: 9px;
+    border: 1px solid black;
+}
+.pb{
+    background-color: rgba(45, 94, 117, 0.568);
+    width: 15vw;
+    height: 12px;
+    border-radius: 9px;
+    font-size: 12px;
+    text-align: center;
+}
+div .sec{
+    width:12vw ;
+
+}
+div .third{
+    width: 6vw;
+}
+div .fourth{
+    width: 3vw;
+}
+div .five{
+    width: 8vw;
+}
+.myproject h1{
+    margin: 35px 0px 0px 15px;
+}
+
+iframe{
+    margin: 8px 13px;
+}
+
+.aboutcontainer{
+    height: 100vh;
+    background-color:white ;
+    width: 1442px;
+    margin-left: 76px;
+    overflow: scroll;
+}
+.about_sidebar{
+    height: 179vh;
+}
+.about-main{
+    background-color: white;
+}
+
+/*...........icons.........*/
+.icons{
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    cursor: pointer;
+}
+.ham{
+    width: 24px;
+   
+}
+
+.cross{
+    width: 21px;
+    margin-left: 151px;
+    margin-top: 9px;
+    
+}
+
+
+
+/*.........media query for resposiveness........*/
+
+@media (max-width: 1022px) {
+    
+    .content{
+      margin-left: 20px;
+    }
+    /* .sidebar{
+        transform: translate(-380px ,0px);
+  } */
+
+}
+@media screen and( max-width:735px ){
+}
+
+@media (max-width:2679px){
+    .sidebargo {
+        transform: translate(-668px, 0px);
+        position: absolute;
+    }
+}
+@media (max-width:1384px){
+    .icons{
+        width:20vw;
+    }
+}
+@media (max-width:1378px){
+    .cross{
+        margin-left: 100px;
+        margin-top: 9px;
+    }
+}
